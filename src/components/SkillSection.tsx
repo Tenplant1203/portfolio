@@ -43,7 +43,7 @@ export default function SkillSection() {
         <p className="text-muted-foreground">今学習していること</p>
       </div>
 
-      <div className="grid grid-cols-3 px-8 gap-3">
+      <div className="grid grid-cols-3 px-8 gap-1">
         {TechList.map(({ name, src, description }) => {
           return (
             <Card key={name} className="w-[350px]">

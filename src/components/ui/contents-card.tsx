@@ -13,7 +13,7 @@ import {
 
 export function ContentsCard() {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-[380px]">
       <CardHeader>
         <CardTitle>Coming Soon!</CardTitle>
         <CardDescription>Project Description</CardDescription>

@@ -12,7 +12,7 @@ import { CalendarDays } from "lucide-react";
 
 export default function PathSection() {
   return (
-    <section id="path" className="my-20 scroll-m-20">
+    <section id="path" className="my-auto scroll-m-20">
       <div className="flex flex-col items-center justify-center py-8">
         <h2 className="flex justify-center my-6 scroll-m-20 text-4xl font-semibold tracking-tight lg:text-4xl">
           My Path
@@ -20,7 +20,7 @@ export default function PathSection() {
         <p className="text-muted-foreground">今までの道のり</p>
       </div>
 
-      <div className="relative px-40">
+      <div className="relative px-10 lg:px-40 mx-auto">
         <div className="grid grid-cols-2 py-4 border-t-4">
           <HoverCard>
             <HoverCardTrigger>

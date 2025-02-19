@@ -21,7 +21,7 @@ export default function AboutSection() {
           About me
         </h2>
         <p className="text-muted-foreground">私について</p>
-        <Card className="w-[400px] md:w-[600px] lg:w-[600px] my-5">
+        <Card className="w-[350px] md:w-[600px] lg:w-[600px] my-5">
           <CardHeader>
             <CardTitle className="flex justify-center text-xl md:text-2xl lg:text-2xl">
               Tenji Matsumoto(松本天獅)

@@ -46,7 +46,7 @@ export default function SkillSection() {
       <div className="grid max-w-6xl gap-4 place-items-center md:grid-cols-2 lg:grid-cols-3 mx-auto">
         {TechList.map(({ name, src, description }) => {
           return (
-            <Card key={name} className="w-[380px]">
+            <Card key={name} className="w-[350px]">
               <CardHeader>
                 <div className="flex items-center justify-center gap-3">
                   <Image

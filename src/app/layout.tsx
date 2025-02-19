@@ -1,5 +1,3 @@
-"use client";
-
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 import "./globals.css";
@@ -10,6 +8,13 @@ import { ClientOnly } from "@/components/ClientOnly";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "My Portfolio",
+  icons: {
+    icon: "/image/favicon.ico",
+  },
+};
 
 export default function RootLayout({
   children,

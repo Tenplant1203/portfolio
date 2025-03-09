@@ -8,6 +8,18 @@ import Image from "next/image";
 
 const TechList = [
   {
+    name: "HTML",
+    src: "/image/HTML.png",
+    description:
+      "HTMLはWebページの基本構造を定義するマークアップ言語です。要素をタグで表現し、コンテンツの骨組みを作ります。",
+  },
+  {
+    name: "CSS",
+    src: "/image/CSS.png",
+    description:
+      "CSSはHTMLで作成した構造にスタイルを適用するための言語です。レイアウトやデザイン、色などを調整し、視覚的に魅力的なページを実現します。",
+  },
+  {
     name: "Javascript",
     src: "/image/Javascript.png",
     description:
@@ -30,6 +42,18 @@ const TechList = [
     src: "/image/SQL.png",
     description:
       "SQL (Structured Query Language) は、リレーショナルデータベースと対話するための標準的な言語です。",
+  },
+  {
+    name: "Git",
+    src: "/image/Git.png",
+    description:
+      "Gitはソフトウェアのバージョン管理システムです。コードの変更履歴を管理し、複数人での開発作業を円滑に進めることができます。",
+  },
+  {
+    name: "Github",
+    src: "/image/Github.png",
+    description:
+      "GitHubはGitリポジトリをホスティングするオンラインプラットフォームです。プロジェクトの共有やコラボレーション、オープンソース開発に適したツールが充実しています。",
   },
 ];
 
